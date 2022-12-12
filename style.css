@@ -123,7 +123,7 @@ ul {
 /* Top Banner */
 
 .top-banner {
-    background: #4fb3d4 url('images/asset\ 30.png');
+    background: #4fb3d4 url('Images/asset\ 30.png');
     background-size: 300px;
 }
 
@@ -215,7 +215,7 @@ header {
 
 .features-section {
     padding: 120px var(--padding-inline-section) 20px;
-    background: url('images/asset\ 32.svg') no-repeat center;
+    background: url('Images/asset\ 32.svg') no-repeat center;
 }
 
 .features-header {
@@ -294,19 +294,19 @@ header {
 }
 
 .card-1 {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url('images/asset\ 34.jpeg') no-repeat center center/cover;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url('Images/asset\ 34.jpeg') no-repeat center center/cover;
 }
 
 .card-2 {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url('images/asset\ 35.jpeg') no-repeat center center/cover;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url('Images/asset\ 35.jpeg') no-repeat center center/cover;
 }
 
 .card-3 {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url('images/asset\ 36.jpeg') no-repeat center center/cover;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url('Images/asset\ 36.jpeg') no-repeat center center/cover;
 }
 
 .example-card:nth-child(4) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url('images/asset\ 37.jpeg') no-repeat center center/cover;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url('Images/asset\ 37.jpeg') no-repeat center center/cover;
 }
 
 .example-card h4 {
