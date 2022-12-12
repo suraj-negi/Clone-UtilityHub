@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+/* CSS Resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section: 20px;
+}
+
+body {
+    color: var(--primary-text-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: var(--secondary-text-color);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Utility Classes */
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+.small-bold-text {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.small-regular-text {
+    font-weight: 300;
+}
+
+.oneliner {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.list-item {
+    margin-bottom: 10px;
+    color: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.list-item:hover {
+    color: var(--accent-color);
+}
+
+.primary-btn {
+    text-align: center;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: white !important;
+    background-color: var(--accent-color);
+    border-radius: 4px;
+    /* box-shadow: 0 0 2px var(--secondary-text-color); */
+    transition: 0.2s ease-out;
+}
+
+.primary-btn:hover {
+    background-color: var(--accent-color-dark);
+}
+
+.secondary-btn {
+    color: var(--primary-text-color);
+    font-weight: 600;
+    padding: 10px 30px;
+    border: 0.1px solid var(--secondary-text-color);
+    border-radius: 4px;
+    /* box-shadow: 0 0 2px var(--secondary-text-color); */
+    transition: 0.2s ease-out;
+}
+
+.secondary-btn:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+/* Top Banner */
+
+.top-banner {
+    background: #4fb3d4 url('images/asset\ 30.png');
+    background-size: 300px;
+}
+
+.banner-text {
+    padding: 15px 30px;
+    color: white;
+    text-align: center;
+}
+
+.banner-link {
+    color: white;
+}
+
+/* Nav Bar */
+
+.main-nav {
+    margin-top: 20px;
+    /* padding: 25px 20px 0px 20px; */
+    justify-content: space-between;
+}
+
+.company-logo img {
+    width: 200px;
+}
+
+.nav-menu {
+    flex-basis: 720px;
+}
+
+.nav-menu ul {
+    justify-content: end;
+    gap: 40px;
+}
+.hamburger{
+    display: none;
+}
+
+/* Hedear Section */
+
+header {
+    padding: 50px var(--padding-inline-section) 0;
+    margin-bottom: 40px;
+}
+
+.header-section {
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-left {
+    max-width: 40vw;
+}
+
+.header-left h1 {
+    margin: 20px 0px 15px;
+}
+
+.header-left p {
+    line-height: 2rem;
+}
+
+.get-started-btn {
+    margin-top: 20px;
+}
+
+.header-right img {
+    width: 100%;
+}
+
+/* Clients Section */
+
+.clients-header {
+    margin-block: 30px;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+.clients-logo {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.logo {
+    height: 46px;
+}
+
+/* Features Section */
+
+.features-section {
+    padding: 120px var(--padding-inline-section) 20px;
+    background: url('images/asset\ 32.svg') no-repeat center;
+}
+
+.features-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features-header h3 {
+    margin-bottom: 20px;
+}
+
+.features-cards {
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    max-width: 30%;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.card img {
+    height: 40px;
+}
+
+/* Big Features Section */
+
+.big-feature-section {
+    padding: 50px var(--padding-inline-section) 0;
+}
+
+.big-feature-container {
+    gap: 50px;
+}
+
+.feature-img img {
+    width: 100%;
+}
+
+.feature-desc {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Example Section */
+
+.examples-section {
+    padding: 100px var(--padding-inline-section);
+}
+
+.examples-header {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.examples-area {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-block: 20px;
+}
+
+.example-card {
+    width: 23%;
+    height: 300px;
+    position: relative;
+    transition: 0.3s ease-out;
+}
+
+.example-card:hover {
+    box-shadow: 0 0 20px #888;
+}
+
+.card-1 {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url('images/asset\ 34.jpeg') no-repeat center center/cover;
+}
+
+.card-2 {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url('images/asset\ 35.jpeg') no-repeat center center/cover;
+}
+
+.card-3 {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url('images/asset\ 36.jpeg') no-repeat center center/cover;
+}
+
+.example-card:nth-child(4) {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0)), url('images/asset\ 37.jpeg') no-repeat center center/cover;
+}
+
+.example-card h4 {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+/* cta section */
+
+.cta-section {
+    padding: 120px var(--padding-inline-section) 80px;
+    background-color: var(--primary-text-color);
+}
+
+.cta-container {
+    color: white;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+.cta-container p {
+    margin-top: 30px;
+    color: white;
+}
+
+/* Footer Section */
+
+footer {
+    padding-block: 80px;
+    background-color: #ebf2fa;
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* sub footer */
+
+.sub-footer {
+    padding-top: var(--padding-inline-section);
+    background-color: #b9cde4;
+}
+
+.sub-footer-container {
+    justify-content: center;
+    text-align: center;
+}
+
+.sub-footer-container ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
